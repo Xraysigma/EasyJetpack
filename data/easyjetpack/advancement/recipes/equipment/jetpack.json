@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "always": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "always"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "easyjetpack:jetpack"
+    ]
+  }
+}

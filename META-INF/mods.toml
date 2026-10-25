@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[52,)"
+license = " LGPL-3.0-only"
+
+[[mods]]
+modId = "easyjetpack"
+version = "1-Release"
+displayName = "easyjetpack"
+authors = "Xraysigma"
+displayTest = "MATCH_VERSION"
+description = ''''''
+
+[[dependencies."easyjetpack"]]
+modId = "forge"
+mandatory = true
+versionRange = "[52,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."easyjetpack"]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
